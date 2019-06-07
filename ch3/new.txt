@@ -1,0 +1,78 @@
+event1 = (1000, "golf")
+event2 = (1000, "park")
+event3 = (1500, "golf")
+
+event_list = [event1, event2, event3]
+x = input("What type of event? ")
+total = 0
+for i in event_list:
+    if i[1] == x
+        total += 1[0]
+
+print(total)
+
+
+
+
+What Justin hopes to see:
+
+display all outings:
+
+Event Data, 
+Event Type, 
+Cost of Event, 
+Number of people, 
+Cost per Person
+
+12-1-19 
+bowling 
+1000.00 
+50.00 
+20.00
+
+
+outing add view
+
+Event Type: (Golf, Bowling, Amusement Park, Concert)
+	Number of people that attended:
+	Date of event:
+
+	Total cost per person for the event:
+	
+    Total cost for the event:
+
+    Event added!
+
+see cost of outings:
+
+What to view: Cost by type(CBT) or total cost (TC):
+stretch (List all events that match in title)
+
+total cost for events = $
+
+by event same way.
+
+#Followed along in the example, this doesn't have to be in the code I am writing for this chalenge#
+
+
+from enum import Enum, auto
+
+class HotDrink:
+    COFFEE = auto()
+    TEA = auto()
+
+my_drink = HotDrink(1)
+
+print(my_drink)
+
+events = [("Justin's Team", "Win", "All of them"), ("Adam's Team", "Lose", "5pts")]
+
+x = prettyTable()
+
+x.field_names["Team", "Outcome", "Total_points"]
+
+for i in event:
+    x.add_row(i)
+
+print(x)
+
